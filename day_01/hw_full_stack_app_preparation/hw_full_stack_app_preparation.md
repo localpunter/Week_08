@@ -24,9 +24,17 @@ Draw a diagram showing the dataflow through the application starting with a form
 ### Questions
 
 1. What is responsible for defining the routes of the `games` resource?
+    The Express server
+
 2. What are the the responsibilities of server.js?
+    To indentify the request based on the info in the url and pass to the DB
+
 3. What are the responsibilities of the `gamesRouter`?
+    To send and receive the data to the DB from the server
+
 4. What process does the the client (front-end) use to communicate with the server?
+    They would use the form_view (browser) which would handle the communication
+
 5. Which of the games API routes does the front-end application consume (i.e. make requests to)?
 
 ## Extensions
